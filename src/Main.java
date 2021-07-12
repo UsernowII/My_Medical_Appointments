@@ -1,20 +1,14 @@
+import Model.AppointmentDoctor;
+import Model.Doctor;
+import Model.ISchedulable;
+import Model.User;
+
+import java.util.Date;
+
 import static ui.UIMenu.*;
 
 public class Main {
     public static void main(String [] Args ){
-        /***
-        Doctor myDoctor = new Doctor(); //Metodo constructor por defecto
-        myDoctor.name = "Alejandro Rodriguez";
-        myDoctor.showName();
-        myDoctor.showId();
-
-        Doctor myDoctorAnn = new Doctor();
-        myDoctor.name = "Anahit Salgado";
-        myDoctor.showName();
-        myDoctor.showId();***/
-
-        showMenu();
-
-
+       showMenu();
     }
 }
